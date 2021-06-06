@@ -1,6 +1,6 @@
 # Image_processing
 
-# Hello guys !!! Today we will see how Create image by yourself Using Python Code.Then we will take 2 image and crop some part of both image and swap it, then we will combine them and form a single image.
+# 🙋‍♀️Hello guys !!! Today we will see how Create image by yourself Using Python Code.Then we will take 2 image and crop some part of both image and swap it, then we will combine them and form a single image.
 
 # Let's Start...
 
