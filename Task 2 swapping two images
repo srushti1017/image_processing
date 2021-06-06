@@ -1,1 +1,20 @@
+Hello guys now we will move towards task-4.2 i.e. to create two images and then swap them , for that we will use for loop...
 
+        temp = np.zeros([600 , 800 , 3])
+        for i in range (50 , 150 ):
+            for j in range (50 , 170):
+                 temp[i , j ] = imge1[i , j]
+                 imge1[i , j] = imge2[i , j]
+                 imge2[i , j] = temp[i , j]
+
+Now to show the images after swapping :
+
+         #1st image after swapping
+         plt.title('original')
+         plt.imshow(imge1)
+
+         #2nd image after swapping
+         plt.title('original')
+         plt.imshow(imge2)
+         
+Here our task-4.2 is completed !!!
