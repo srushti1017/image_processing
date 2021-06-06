@@ -1,1 +1,12 @@
+# After swapping we will see task-4.3 how to concatinate two images let's see !!! 
+For concatinating two images there are two ways 1st concatinate vertically and concatinate horizontally and for both operations there is a straight forward syntax is given in opencv library... These is for the same size images. for vertically use keyword vconcat([img1_var , img1_var]) for horizontally use keyword hconcat([img1_var , img1_var])
 
+    #concatinate two images vertically
+    ver = cv2.vconcat([imge2, imge2])
+
+    #show combined image
+    cv2.imshow('combine1', ver)
+    cv2.waitKey()
+    cv2.DestroyAllWindows()
+    
+     In this way we can create images , swapp the images also we can concatinate images.💯✌
