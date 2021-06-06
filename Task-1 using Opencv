@@ -1,1 +1,28 @@
+# Firstly we will see how to create our own image in open cv using python code . For that we need jupyter in our system after installing jupyter we have to install OpenCv library. Here we also use some modules for image processing like numpy for implementing arrays and matplotlib for the visual understanding by drawing graphs.
 
+          pip install Opencv-python
+          pip install numpy 
+          pip install matplotlib
+
+Now see our 1st task that is to create image . For that we have to import cv2 library , numpy library and matplotlib library
+
+        import cv2
+        import numpy as np
+        import matplotlib.pyplot as plt
+
+Here we will create 2 images for that use following syntax :
+
+        imge1 = cv2.imread('dog1.png')   
+        imge2 = cv2.imread('dog2.png')
+
+Above we created two images now we will show these 2 images syntax for the same is as follow :
+
+        #show 1st image 
+        plt.title('original')
+        plt.imshow(imge1)
+
+        #show 2nd image
+        plt.title('original1')
+        plt.imshow(imge2)
+        
+ Here we are done with task 1...
